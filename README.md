@@ -160,7 +160,7 @@ Since SOFR is a plug-and-play module, you do not need to retrain the baselines. 
 
 This repository is organized into three folders corresponding to the supported baselines: `DCVC-SDD`, `DCVC-FM`, and `EHVC`. Inside each folder, you will find:
 *   The modified flow estimation method (`video_model.py`) integrating our SOFR module.
-*   Pre-computed `.json` files containing our encoding/decoding results for your reference.
+*   Pre-computed `.json` files containing our encoding/decoding results for your reference. For encoding/decoding runtime, refer to the PSNR JSON files.
 
 To run the inference, you only need to copy our test script into the upstream baseline repositories to replace their default motion estimation calls.
 
